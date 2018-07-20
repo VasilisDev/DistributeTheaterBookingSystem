@@ -7,7 +7,7 @@ A simple theater booking system in java RMI.The application gives to Client the 
 2. Run the Server side : java TheaterServer
 3. Run the Client Side:
  
- a) To see all the parameters who want to run: java HotelClient
+ a) To see all the parameters who want to run: java TheaterServer
  
  b) To see all the tiers,available positions and their cost: java TheaterClient list localhost
  
