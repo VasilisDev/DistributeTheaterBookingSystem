@@ -1,12 +1,19 @@
 # DistributeTheaterBookingSystem
 
 A simple theater booking system in java RMI.The application gives to Client the ability to book a ticket,cancel his reservation,to show the list of the guests of the show and to see all the tiers of theatre and their cost.To execute the app follow the below commands:
-
-0. First of all compile all .java files : javac *.java
-1. Hit this command for the rmiregistry which acts as a dns server (or a middleware) : rmiregistry &<port>
-2. Run the Server side : java TheaterServer
-3. Run the Client Side:
  <dl>
+ <dt>First of all compile all .java files :</dt>
+   <dd>javac *.java</dd>
+ 
+ <dt>Hit this command for the rmiregistry which acts as a dns server (or a middleware) :</dt>
+   <dd>rmiregistry <strong>&port</strong> </dd>
+ 
+ <dt>Run the Server side :</dt>
+ <dd><strong>java TheaterServer</strong></dd>
+ 
+ <dt> Run the Client Side: </dt>
+ <dd><strong>java TheaterClient</strong><dd>
+ 
  <dt> To see all the parameters who want to run:<dt>
   <dd>java TheaterServer<dd>
  
