@@ -6,15 +6,19 @@ A simple theater booking system in java RMI.The application gives to Client the 
 1. Hit this command for the rmiregistry which acts as a dns server (or a middleware) : rmiregistry &<port>
 2. Run the Server side : java TheaterServer
 3. Run the Client Side:
+ <dl>
+ <dt> To see all the parameters who want to run:<dt>
+  <dd>java TheaterServer<dd>
  
- a) To see all the parameters who want to run: java TheaterServer
+<dt> To see all the tiers,available positions and their cost:</dt>
+<dd>java TheaterClient list localhost<dd>
  
- b) To see all the tiers,available positions and their cost: java TheaterClient list localhost
+<dt> To book tickets:</dt>
+<dd>java TheaterClient book localhost <position type> <number of positions>  <client name></dd>
  
- c) To book tickets: java TheaterClient book localhost <position type> " <number of positions> " <client name>
+<dt> To see the guests of the show:</dt>
+<dd>java TheaterClient guests localhost</dd>
  
- d) To see the guests of the show: java TheaterClient guests localhost
- 
- e) To cancel a ticket: java TheaterClient cancel localhost <position type>  <number of positions> <client name> 
-  
-
+<dt> To cancel a ticket:</dt>
+<dd>java TheaterClient cancel localhost <position type>  <number of positions> <client name> </dd>
+ </dl>
