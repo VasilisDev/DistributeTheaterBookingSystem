@@ -9,7 +9,7 @@
    <dd>rmiregistry &port</dd>
  
  <dt>Run the Server side :</dt>
- <dd>java TheaterServer</dd>
+ <dd>```html java TheaterServer```</dd>
 
   <dt> To see all the parameters who want to run:<dt>
   <dd>java TheaterClient<dd>
