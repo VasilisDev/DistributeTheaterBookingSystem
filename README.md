@@ -6,7 +6,7 @@ A simple theater booking system in java RMI.The application gives to Client the 
    <dd>```javac *.java```</dd>
  
  <dt>Hit this command for the rmiregistry which acts as a dns server (or a middleware) :</dt>
-   <dd>```rmiregistry &port```</dd>
+   <dd>`rmiregistry &port`</dd>
  
  <dt>Run the Server side :</dt>
  <dd>```java TheaterServer```</dd>
