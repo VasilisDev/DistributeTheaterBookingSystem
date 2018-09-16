@@ -15,15 +15,15 @@
   <dd>java TheaterClient<dd>
  
 <dt> To see all the tiers,available positions and their cost:</dt>
-<dd>java TheaterClient list localhost<dd>
+<dd>java TheaterClient [list] localhost<dd>
  
 <dt> To book tickets:</dt>
-<dd>java TheaterClient book localhost position type number of positions  client name</dd>
+<dd>java TheaterClient [book] localhost [position type] [number of positions]  [client name]</dd>
  
 <dt> To see the guests of the show:</dt>
-<dd>java TheaterClient guests localhost</dd>
+<dd>java TheaterClient [guests] localhost</dd>
  
 <dt> To cancel a ticket:</dt>
-<dd>java TheaterClient cancel localhost position type  number of positions client name</dd>
+<dd>java TheaterClient [cancel] localhost [position type]  [number of positions] [client name]</dd>
 
  </dl>
