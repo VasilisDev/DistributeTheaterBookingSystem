@@ -11,7 +11,7 @@ A simple theater booking system in java RMI.The application gives to Client the 
  
  b) To see all the tiers,available positions and their cost: java TheaterClient list localhost
  
- c) To book tickets: java TheaterClient book localhost <position type>  <number of positions> <client name>
+ c) To book tickets: java TheaterClient book localhost <position type> " <number of positions> " <client name>
  
  d) To see the guests of the show: java TheaterClient guests localhost
  
