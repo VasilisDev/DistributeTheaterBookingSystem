@@ -24,7 +24,7 @@
 <dd>java TheaterClient guests localhost</dd>
  
 <dt> To cancel a ticket:</dt>
-```
+<div class="jumbotron"> 
 <dd>java TheaterClient cancel localhost position type  number of positions client name</dd>
- ```
+ </div>
  </dl>
