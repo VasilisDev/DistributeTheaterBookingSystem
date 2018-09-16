@@ -6,10 +6,10 @@ A simple theater booking system in java RMI.The application gives to Client the 
    <dd>javac *.java</dd>
  
  <dt>Hit this command for the rmiregistry which acts as a dns server (or a middleware) :</dt>
-   <dd>rmiregistry <strong>&port</strong> </dd>
+   <dd>rmiregistry &port</dd>
  
  <dt>Run the Server side :</dt>
- <dd><strong>java TheaterServer</strong></dd>
+ <dd>java TheaterServer</dd>
  
  <dt> Run the Client Side: </dt>
  <dd><strong>java TheaterClient</strong><dd>
@@ -21,11 +21,11 @@ A simple theater booking system in java RMI.The application gives to Client the 
 <dd>java TheaterClient list localhost<dd>
  
 <dt> To book tickets:</dt>
-<dd>java TheaterClient book localhost <position type> <number of positions>  <client name></dd>
+<dd>java TheaterClient book localhost position type number of positions  client name</dd>
  
 <dt> To see the guests of the show:</dt>
 <dd>java TheaterClient guests localhost</dd>
  
 <dt> To cancel a ticket:</dt>
-<dd>java TheaterClient cancel localhost <position type>  <number of positions> <client name> </dd>
+<dd>java TheaterClient cancel localhost position type  number of positions client name </dd>
  </dl>
