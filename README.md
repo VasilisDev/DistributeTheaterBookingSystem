@@ -1,6 +1,7 @@
 # DistributeTheaterBookingSystem
 
-A simple theater booking system in java RMI.The application gives to Client the ability to book a ticket,cancel his reservation,to show the list- [x]  of the guests of the show and to see all the tiers of theatre and their cost.To execute the app follow the below commands:
+<h1>A simple theater booking system in java RMI.</h1>
+<p>The application gives to Client the ability to book a ticket,cancel his reservation,to show the list of the guests of the show and to see all the tiers of theatre and their cost.To execute the app follow the below commands:</p>
  <dl>
  <dt>First of all compile all .java files :</dt>
    <dd>javac *.java</dd>
