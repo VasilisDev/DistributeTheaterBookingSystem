@@ -9,8 +9,11 @@
  <dd>rmiregistry &port</dd>
  
  <dt>Run the Server side :</dt>
- <dd>java TheaterServer</dd>
- <img href="screenshots/in.jpg">
+ <dd>java TheaterServer<p align="center">
+  <img src="DistributeTheaterBookingSystem/screenshots/1.jpg" width="350">
+  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+</p></dd>
+
   <dt> To see all the parameters who want to run:<dt>
   <dd>java TheaterClient<dd>
  
