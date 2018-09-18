@@ -10,8 +10,7 @@
  
  <dt>Run the Server side :</dt>
  <dd>java TheaterServer<p align="center">
-  <img src="screenshots/1.jpg" width="350">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+  <img src="screenshots/1.jpg" >
 </p></dd>
 
   <dt> To see all the parameters who want to run:<dt>
